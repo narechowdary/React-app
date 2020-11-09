@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <div>
+      <h1>
+        Welcome to react App
+      </h1>
+      <input
+        id="name"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <div>
+        <span>
+          
+        </span>
+      </div>
+    </div>
+  </header>
+</div>
+`;
