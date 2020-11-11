@@ -1,14 +1,17 @@
 import React from 'react';
 
-function ProductDetails(props) {
+export default function ProductList(props) {
     const { productId, productPrice, heroImageUrl, height, width, productName, imageClick } = props;
+
+    // constructing given styles object from json
     const productDetailsStyles = {
         height,
         width,
         backgroundImage: `url(${heroImageUrl})`,
         backgroundRepeat: 'no-repeat'
     }
-    // TODO comment
+
+    // Considering selling price & low price is an offer
     const highPrice = productPrice.selling.high ? productPrice.selling.high : productPrice.regular;
     const lowprice = productPrice.selling.low ? productPrice.selling.low : productPrice.selling;
 
@@ -21,13 +24,20 @@ function ProductDetails(props) {
                         {productName}
                     </div>
                     <div className='product-price'>
-                        <span className = 'hight-price'>$ {highPrice}</span><br />
-                        <span className = 'low-price'>$ {lowprice}</span>
+                        {/* Display both prices when they are different (OR) Display low price when they are same */}
+                        { highPrice !== lowprice ? 
+                            <div>
+                                <span className = 'hight-price'>$ {highPrice}</span><br />
+                                <span className = 'low-price'>$ {lowprice}</span> 
+                            </div>
+                        :
+                            <div>
+                                <span className = 'low-price'>$ {lowprice}</span> 
+                            </div>
+                        }
                     </div>
                 </div>
             </div>
         </div>
     )
 }
-
-export default ProductDetails;

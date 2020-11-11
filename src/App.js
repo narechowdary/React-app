@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import WilliamsSonoma from './Components/WilliamsSonom/WilliamsSonoma'
+import Main from './Components/Main'
 
 export default class extends React.Component{
   constructor(props){
@@ -11,7 +11,8 @@ export default class extends React.Component{
   render() {
     return(
       <div>
-        <WilliamsSonoma />
+        {/* Added Product Details main Component */}
+        <Main />
       </div>
     )
   }
