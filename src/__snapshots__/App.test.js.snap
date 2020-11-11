@@ -1,28 +1,450 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders learn react link 1`] = `
-<div
-  className="App"
->
-  <header
-    className="App-header"
-  >
-    <div>
+exports[`it renders correctly 1`] = `
+<div>
+  <div>
+    <div
+      className="App"
+    >
       <h1>
-        Welcome to react App
+        Williams Sonoma Products
       </h1>
-      <input
-        id="name"
-        onChange={[Function]}
-        type="text"
-        value=""
-      />
-      <div>
-        <span>
-          
-        </span>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="container"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(https://assets.weimgs.com/weimgs/ab/images/wcm/products/202046/0098/bearaby-cotton-napling-2-m.jpg)",
+              "backgroundRepeat": "no-repeat",
+              "height": 363,
+              "width": 363,
+            }
+          }
+        >
+          <div
+            className="product-details"
+          >
+            <div
+              className="product-title"
+            >
+              Bearaby Cotton Napling&#160;
+            </div>
+            <div
+              className="product-price"
+            >
+              <span
+                className="hight-price"
+              >
+                $ 
+                149
+              </span>
+              <br />
+              <span
+                className="low-price"
+              >
+                $ 
+                149
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="container"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(https://assets.weimgs.com/weimgs/ab/images/wcm/products/202046/0098/bearaby-velvet-weighted-blanket-silver-topaz-1-m.jpg)",
+              "backgroundRepeat": "no-repeat",
+              "height": 363,
+              "width": 363,
+            }
+          }
+        >
+          <div
+            className="product-details"
+          >
+            <div
+              className="product-title"
+            >
+              Bearaby Velvet Weighted Blanket - Silver Topaz
+            </div>
+            <div
+              className="product-price"
+            >
+              <span
+                className="hight-price"
+              >
+                $ 
+                279
+              </span>
+              <br />
+              <span
+                className="low-price"
+              >
+                $ 
+                249
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="container"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(https://assets.weimgs.com/weimgs/ab/images/wcm/products/202046/0098/bearaby-velvet-weighted-blanket-2-m.jpg)",
+              "backgroundRepeat": "no-repeat",
+              "height": 363,
+              "width": 363,
+            }
+          }
+        >
+          <div
+            className="product-details"
+          >
+            <div
+              className="product-title"
+            >
+              Bearaby Velvet Weighted Blanket - Rose Quartz
+            </div>
+            <div
+              className="product-price"
+            >
+              <span
+                className="hight-price"
+              >
+                $ 
+                279
+              </span>
+              <br />
+              <span
+                className="low-price"
+              >
+                $ 
+                249
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="container"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(https://assets.weimgs.com/weimgs/ab/images/wcm/products/202046/0098/bearaby-velvet-weighted-blanket-emerald-1-m.jpg)",
+              "backgroundRepeat": "no-repeat",
+              "height": 363,
+              "width": 363,
+            }
+          }
+        >
+          <div
+            className="product-details"
+          >
+            <div
+              className="product-title"
+            >
+              Bearaby Velvet Weighted Blanket- Emerald
+            </div>
+            <div
+              className="product-price"
+            >
+              <span
+                className="hight-price"
+              >
+                $ 
+                279
+              </span>
+              <br />
+              <span
+                className="low-price"
+              >
+                $ 
+                249
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="container"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(https://assets.weimgs.com/weimgs/ab/images/wcm/products/202046/0098/bearaby-velvet-weighted-blanket-pink-sapphire-m.jpg)",
+              "backgroundRepeat": "no-repeat",
+              "height": 363,
+              "width": 363,
+            }
+          }
+        >
+          <div
+            className="product-details"
+          >
+            <div
+              className="product-title"
+            >
+              Bearaby Velvet Weighted Blanket - Pink Sapphire
+            </div>
+            <div
+              className="product-price"
+            >
+              <span
+                className="hight-price"
+              >
+                $ 
+                279
+              </span>
+              <br />
+              <span
+                className="low-price"
+              >
+                $ 
+                249
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="container"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(https://assets.weimgs.com/weimgs/ab/images/wcm/products/202046/0098/bearaby-velvet-weighted-blanket-turquoise-4-m.jpg)",
+              "backgroundRepeat": "no-repeat",
+              "height": 363,
+              "width": 363,
+            }
+          }
+        >
+          <div
+            className="product-details"
+          >
+            <div
+              className="product-title"
+            >
+              Bearaby Velvet Weighted Blanket - Turquoise
+            </div>
+            <div
+              className="product-price"
+            >
+              <span
+                className="hight-price"
+              >
+                $ 
+                279
+              </span>
+              <br />
+              <span
+                className="low-price"
+              >
+                $ 
+                249
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="container"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(https://assets.weimgs.com/weimgs/ab/images/wcm/products/202043/0001/doctors-without-borders-face-coverings-set-of-2-3-m.jpg)",
+              "backgroundRepeat": "no-repeat",
+              "height": 363,
+              "width": 363,
+            }
+          }
+        >
+          <div
+            className="product-details"
+          >
+            <div
+              className="product-title"
+            >
+              Doctors Without Borders Face Coverings (Set of 2)
+            </div>
+            <div
+              className="product-price"
+            >
+              <span
+                className="hight-price"
+              >
+                $ 
+                24
+              </span>
+              <br />
+              <span
+                className="low-price"
+              >
+                $ 
+                24
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="container"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(https://assets.weimgs.com/weimgs/ab/images/wcm/products/202043/0001/doctors-without-borders-thank-you-ornaments-set-of-3-1-m.jpg)",
+              "backgroundRepeat": "no-repeat",
+              "height": 363,
+              "width": 363,
+            }
+          }
+        >
+          <div
+            className="product-details"
+          >
+            <div
+              className="product-title"
+            >
+              Doctors Without Borders Thank You Ornaments (Set of 3)
+            </div>
+            <div
+              className="product-price"
+            >
+              <span
+                className="hight-price"
+              >
+                $ 
+                12.5
+              </span>
+              <br />
+              <span
+                className="low-price"
+              >
+                $ 
+                12.5
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="container"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(https://assets.weimgs.com/weimgs/ab/images/wcm/products/202043/0001/doctors-without-borders-thank-you-catchall-m.jpg)",
+              "backgroundRepeat": "no-repeat",
+              "height": 363,
+              "width": 363,
+            }
+          }
+        >
+          <div
+            className="product-details"
+          >
+            <div
+              className="product-title"
+            >
+              Doctors Without Borders Thank You Catchall
+            </div>
+            <div
+              className="product-price"
+            >
+              <span
+                className="hight-price"
+              >
+                $ 
+                19.5
+              </span>
+              <br />
+              <span
+                className="low-price"
+              >
+                $ 
+                19.5
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <div
+          className="container"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url(https://assets.weimgs.com/weimgs/ab/images/wcm/products/202041/0010/festive-stripe-dinnerware-m.jpg)",
+              "backgroundRepeat": "no-repeat",
+              "height": 363,
+              "width": 363,
+            }
+          }
+        >
+          <div
+            className="product-details"
+          >
+            <div
+              className="product-title"
+            >
+              Festive Stripe Dinnerware
+            </div>
+            <div
+              className="product-price"
+            >
+              <span
+                className="hight-price"
+              >
+                $ 
+                126
+              </span>
+              <br />
+              <span
+                className="low-price"
+              >
+                $ 
+                8.5
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </header>
+    <div />
+  </div>
 </div>
 `;
