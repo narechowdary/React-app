@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ProductDetails(props) {
+export default function ProductList(props) {
     const { productId, productPrice, heroImageUrl, height, width, productName, imageClick } = props;
 
     // constructing given styles object from json

@@ -1,24 +1,17 @@
 import TestRenderer from 'react-test-renderer';
+import ProductList from './ProductList'
 
-it("should props received correctly", () => {
+it("props should received correctly", () => {
+    const price = {
+        selling: '120',
+        regular: '150'
+    }
     function Main() {
         return (
             <div>
-                <ProductList productId={"sampleId"} height={"100"} width={"200"} heroImageUrl={"https://google.com"} productPrice={"24"} productName={"Sample Product"} />
+                <ProductList productId={"sampleId"} height={"100"} width={"200"} heroImageUrl={"https://google.com"} productPrice= {price} productName={"Sample Product"} />
             </div>
         )
-    }
-    
-    function ProductList() {
-        return (
-            <div>
-                <span>sampleId</span>
-                <span>100</span>
-                <span>200</span>
-                <span>https://google.com</span>
-                <span>24</span>
-            </div>
-        );
     }
 
     const testRenderer = TestRenderer.create(<Main />);
@@ -28,5 +21,5 @@ it("should props received correctly", () => {
     expect(testInstance.findByType(ProductList).props.height).toBe("100");
     expect(testInstance.findByType(ProductList).props.width).toBe("200");
     expect(testInstance.findByType(ProductList).props.heroImageUrl).toBe("https://google.com");
-    expect(testInstance.findByType(ProductList).props.productPrice).toBe("24");
+    expect(testInstance.findByType(ProductList).props.productPrice.selling).toBe("120");
 })
