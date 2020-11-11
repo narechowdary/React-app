@@ -1,15 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Home from './Components/Home/Home'
+import WilliamsSonoma from './Components/WilliamsSonom/WilliamsSonoma'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Home />
-      </header>
-    </div>
-  );
+export default class extends React.Component{
+  constructor(props){
+    super(props)
+    this.state = { }
+  }
+
+  render() {
+    return(
+      <div>
+        <WilliamsSonoma />
+      </div>
+    )
+  }
 }
-
-export default App;
