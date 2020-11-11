@@ -5,7 +5,7 @@ export const sampleJson = {
     "groups": [
         {
             "id": "bearaby-cotton-napling-b3369",
-            "name": "Bearaby Cotton Napling&#160;",
+            "name": "Bearaby Cotton Napling",
             "links": {
                 "www": "https://www.westelm.com/products/bearaby-cotton-napling-b3369/"
             },

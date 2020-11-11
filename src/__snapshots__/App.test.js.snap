@@ -6,10 +6,14 @@ exports[`it renders correctly 1`] = `
     <div
       className="App"
     >
-      <h1>
-        Williams Sonoma Products
-      </h1>
+      <img
+        alt="Williams Sonoma"
+        class="logo-image"
+        src="https://assets.wsimgs.com/wsimgs/rk/images/i/202045/0007/images/common/logo.svg"
+      />
     </div>
+     
+    <br />
     <div
       className="row"
     >
@@ -34,24 +38,19 @@ exports[`it renders correctly 1`] = `
             <div
               className="product-title"
             >
-              Bearaby Cotton Napling&#160;
+              Bearaby Cotton Napling
             </div>
             <div
               className="product-price"
             >
-              <span
-                className="hight-price"
-              >
-                $ 
-                149
-              </span>
-              <br />
-              <span
-                className="low-price"
-              >
-                $ 
-                149
-              </span>
+              <div>
+                <span
+                  className="low-price"
+                >
+                  $ 
+                  149
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -82,19 +81,21 @@ exports[`it renders correctly 1`] = `
             <div
               className="product-price"
             >
-              <span
-                className="hight-price"
-              >
-                $ 
-                279
-              </span>
-              <br />
-              <span
-                className="low-price"
-              >
-                $ 
-                249
-              </span>
+              <div>
+                <span
+                  className="hight-price"
+                >
+                  $ 
+                  279
+                </span>
+                <br />
+                <span
+                  className="low-price"
+                >
+                  $ 
+                  249
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -125,19 +126,21 @@ exports[`it renders correctly 1`] = `
             <div
               className="product-price"
             >
-              <span
-                className="hight-price"
-              >
-                $ 
-                279
-              </span>
-              <br />
-              <span
-                className="low-price"
-              >
-                $ 
-                249
-              </span>
+              <div>
+                <span
+                  className="hight-price"
+                >
+                  $ 
+                  279
+                </span>
+                <br />
+                <span
+                  className="low-price"
+                >
+                  $ 
+                  249
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -168,19 +171,21 @@ exports[`it renders correctly 1`] = `
             <div
               className="product-price"
             >
-              <span
-                className="hight-price"
-              >
-                $ 
-                279
-              </span>
-              <br />
-              <span
-                className="low-price"
-              >
-                $ 
-                249
-              </span>
+              <div>
+                <span
+                  className="hight-price"
+                >
+                  $ 
+                  279
+                </span>
+                <br />
+                <span
+                  className="low-price"
+                >
+                  $ 
+                  249
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -211,19 +216,21 @@ exports[`it renders correctly 1`] = `
             <div
               className="product-price"
             >
-              <span
-                className="hight-price"
-              >
-                $ 
-                279
-              </span>
-              <br />
-              <span
-                className="low-price"
-              >
-                $ 
-                249
-              </span>
+              <div>
+                <span
+                  className="hight-price"
+                >
+                  $ 
+                  279
+                </span>
+                <br />
+                <span
+                  className="low-price"
+                >
+                  $ 
+                  249
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -254,19 +261,21 @@ exports[`it renders correctly 1`] = `
             <div
               className="product-price"
             >
-              <span
-                className="hight-price"
-              >
-                $ 
-                279
-              </span>
-              <br />
-              <span
-                className="low-price"
-              >
-                $ 
-                249
-              </span>
+              <div>
+                <span
+                  className="hight-price"
+                >
+                  $ 
+                  279
+                </span>
+                <br />
+                <span
+                  className="low-price"
+                >
+                  $ 
+                  249
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -297,19 +306,14 @@ exports[`it renders correctly 1`] = `
             <div
               className="product-price"
             >
-              <span
-                className="hight-price"
-              >
-                $ 
-                24
-              </span>
-              <br />
-              <span
-                className="low-price"
-              >
-                $ 
-                24
-              </span>
+              <div>
+                <span
+                  className="low-price"
+                >
+                  $ 
+                  24
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -340,19 +344,14 @@ exports[`it renders correctly 1`] = `
             <div
               className="product-price"
             >
-              <span
-                className="hight-price"
-              >
-                $ 
-                12.5
-              </span>
-              <br />
-              <span
-                className="low-price"
-              >
-                $ 
-                12.5
-              </span>
+              <div>
+                <span
+                  className="low-price"
+                >
+                  $ 
+                  12.5
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -383,19 +382,14 @@ exports[`it renders correctly 1`] = `
             <div
               className="product-price"
             >
-              <span
-                className="hight-price"
-              >
-                $ 
-                19.5
-              </span>
-              <br />
-              <span
-                className="low-price"
-              >
-                $ 
-                19.5
-              </span>
+              <div>
+                <span
+                  className="low-price"
+                >
+                  $ 
+                  19.5
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -426,19 +420,21 @@ exports[`it renders correctly 1`] = `
             <div
               className="product-price"
             >
-              <span
-                className="hight-price"
-              >
-                $ 
-                126
-              </span>
-              <br />
-              <span
-                className="low-price"
-              >
-                $ 
-                8.5
-              </span>
+              <div>
+                <span
+                  className="hight-price"
+                >
+                  $ 
+                  126
+                </span>
+                <br />
+                <span
+                  className="low-price"
+                >
+                  $ 
+                  8.5
+                </span>
+              </div>
             </div>
           </div>
         </div>
