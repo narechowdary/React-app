@@ -1,5 +1,5 @@
 import React from 'react'
-import { sampleJson } from '../SampleJson/Sample'
+import { sampleJson } from './SampleJson/Sample'
 import ProductDetails from './ProductList'
 import ImageCarousel from './ImageCarousel'
 import { Modal } from 'react-bootstrap'
@@ -42,7 +42,7 @@ export default class Main extends React.Component {
                     <img class="logo-image"  src="https://assets.wsimgs.com/wsimgs/rk/images/i/202045/0007/images/common/logo.svg" alt="Williams Sonoma"></img>
                 </div> <br />
                 {/* Passing Product Price if avaialble if not Prce Range */}
-                <div className='row'>
+                <div className='row' tabIndex= "-1">
                     {sampleJson.groups.map(product => {
                         return (
                             <ProductDetails key={product.id} productId={product.id} height={product.hero.height} width={product.hero.width} heroImageUrl={product.hero.href} productPrice={product.price || product.priceRange} productName={product.name} imageClick={this.imageClick} />

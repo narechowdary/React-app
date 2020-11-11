@@ -16,6 +16,7 @@ exports[`it renders correctly 1`] = `
     <br />
     <div
       className="row"
+      tabIndex="-1"
     >
       <div
         className="col-md-4"
